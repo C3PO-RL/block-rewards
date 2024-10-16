@@ -1,0 +1,45 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0a1f44;
+  text-align: center;
+  color: white;
+}
+
+.ethIcon {
+  margin-bottom: 20px;
+}
+
+.errorText {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.errorMessage {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+}
+
+.errorActions {
+  display: flex;
+  gap: 16px;
+}
+
+.errorActions button {
+  font-size: 1rem;
+  padding: 8px 24px;
+}
+
+.errorActions .MuiButton-containedPrimary {
+  background-color: #627eea;
+  color: white;
+}
+
+.errorActions .MuiButton-outlinedSecondary {
+  color: white;
+  border-color: white;
+}

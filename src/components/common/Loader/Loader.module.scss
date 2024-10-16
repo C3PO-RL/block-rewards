@@ -1,0 +1,31 @@
+.loadingContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.ethIcon {
+  animation: spin 2s infinite linear;
+}
+
+.loadingText {
+  margin-top: 16px;
+  font-size: 1.5rem;
+  color: #627eea;
+  font-family: "Arial", sans-serif;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
